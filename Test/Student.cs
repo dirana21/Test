@@ -3,14 +3,14 @@ namespace Test
 {
 	public class Student : Human
 	{
-		public int _ID { get; set; }
+		public int _studentID { get; set; }
         public Student(string firstName, string lastName, DateTime dateOfBirth,int id) : base(firstName, lastName, dateOfBirth)
         {
-            _ID = id;
+            _studentID = id;
         }
         public override string ToString()
         {
-            return $"\nFirstName: {FirstName}\nLastname: {LastName}\nDateOfBirthday: {DateOfBirth}\nID: {_ID}";
+            return $"   Student \nFirstName: {FirstName}\nLastname: {LastName}\nDateOfBirthday: {DateOfBirth}\nID: {_studentID}";
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Test
 		
 		public override string ToString()
 		{
-			return $"\nFirstName: {FirstName}\nLastname: {LastName}\nDateOfBirthday: {DateOfBirth}";
+			return $"   Person \nFirstName: {FirstName}\nLastname: {LastName}\nDateOfBirthday: {DateOfBirth}";
 		}
 	}
 }
