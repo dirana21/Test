@@ -19,7 +19,7 @@ namespace Test
             {
                 return new Student(firstName, lastName, dateOfBirth, studentID.Value);
             }
-            else if (teacherID.HasValue && studentID == null)
+            else if (teacherID.HasValue && !studentID.HasValue)
             {
                 return new Teacher(firstName, lastName, dateOfBirth, teacherID.Value);
             }
